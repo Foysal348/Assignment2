@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font: weight 400px;;
+    font-style: normal;
+  }
+  .navbar{
+  
+   justify-content:space-between;
+   align-items: center;
+  }
+  .navlist{
+display: flex;
+/* justify-content: space-between; */
+  }
+  .display-flex{
+    display: flex;
+  }
+.nav-item{
+    list-style: none;
+    margin-right:30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+}
+.nav-link2{
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+background: rgb(230, 83, 60);
+box-sizing: border-box;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 42px;
+}
+.text-color{
+  color: rgb(255, 255, 255);
+}
+.bgcolor{
+  width: 100%;
+  height: 715px;
+}
+.color{
+   
+    background-color: rgb(17, 17, 17);
+}
+.header{
+   
+font-weight: 700;
+font-size: 2rem;
+color: rgb(230, 83, 60);
+margin-left: 20px;
+}
+.miama{
+  font-family:miama ;
+  font-size: 2.9rem;
+}
+.navbar ,.banner{
+    width: 100%;
+    margin: 0 auto;
+}
+.banner{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+display: flex;
+justify-content: space-between;
+}
+.banner-container{
+  margin-left: 25px;
+  
+}
+.button{
+  width: 180px;
+height: 30px;
+border-radius: 10px;
+/* color: rgb(255, 255, 255); */
+font-family: Inter;
+font-size: 1.25rem;
+font-weight: 400;
+box-sizing: border-box;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 42px;
+}
+/* Change Your Habits section  */
+.header-color{
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+}
+.text-color2{
+ color: rgba(255, 255, 255, 0.5);
+
+} 
+  CHANGE YOUR HABITS STYLES
+.text-color2{
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 5.8rem;
+}
+.div{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+  text-align: center;
+}
+.habit img{
+  border-radius: 50%;
+  width: 85%;
+  border: .4rem rgba(255, 255, 255, 0.1) solid;
+  margin-bottom: 3rem;
+}
+.habit header-col{
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: .6rem;
+}
